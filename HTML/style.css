@@ -1,0 +1,139 @@
+/*
+Common CSS
+*/
+body{font-family: 'Open Sans', sans-serif;color: #333333; font-size: 15px;line-height: 1.5em; margin: 0; padding: 0}
+p{font-weight: 400; margin: 0 0 15px}
+h1, h2, h3, h4, h5, h6{font-weight: 700; line-height: 1.5em; margin: 0 0 15px}
+a{transition: 0.5s; text-decoration: none}
+.content{width: 1170px; margin: 0 auto}
+#scrollUp{background: url(img/top.png) no-repeat; height: 38px; width: 38px; bottom: 5px; right: 5px; display: block; text-indent: -99999px}
+.slicknav_menu{display: none}
+
+/*
+Top Header Area
+*/
+.top_header_area{background: #a88c95; padding: 18px 0; overflow: hidden;}
+.top_header_area .inner_header{overflow: hidden}
+.top_header_area .social_area{float: left; width: 50%;}
+.top_header_area .social_area ul{margin: 0; padding: 0; list-style: none; text-align: left}
+.top_header_area .social_area ul li{display: inline-block; margin-right: 5px;}
+.top_header_area .social_area ul li a{background: #d2d2d2; color: #6a3144; width: 35px; height: 30px;display: block; text-align: center; padding-top: 5px; border-radius: 50%}
+.top_header_area .social_area ul li a:hover{background: #6a3144; color: #fff;}
+.top_header_area .search_area{float: right; width: 50%}
+.top_header_area .search_area form{width: 300px;float: right}
+.top_header_area .search_area input[type="text"]{background: #fff; border: 0; border-radius: 5px 0px 0px 5px; padding: 10px;font-weight: 600;font-size: 14px;width: 200px; float: left}
+.top_header_area .search_area input[type="submit"]{background: #97455f; color: #fff; padding: 10px; border: 0; border-radius: 0 5px 5px 0;font-weight: 600;font-size: 14px;width: 80px; float: left; cursor: pointer; transition: 0.5s}
+.top_header_area .search_area input[type="submit"]:hover{background: #6a3144; color: #fff;}
+
+
+
+/*
+    Logo Area
+*/
+.logo_area{width: 220px; max-width: 100%; margin: 25px auto; text-align: center}
+
+
+
+/*
+    Main menu
+*/
+.main_menu{background: #97455f;height: 53px;}
+.main_menu ul{margin: 0 auto; padding: 0; list-style: none; text-align: center}
+.main_menu ul li{display: inline-block; margin: 0 5px}
+.main_menu ul li a{color: #fff; font-size: 14px; font-weight: 600; text-transform: uppercase; display: block; padding: 15px 20px;}
+.main_menu ul li a:hover{background: #6a3144}
+
+
+/*
+    Slider Area
+*/
+.slider_area{margin: 0; width: 100%; overflow: hidden;position: relative}
+.slider_area .bx-wrapper{border: 0; margin: 0}
+.slider_area .bx-controls {position: absolute;bottom: 10px;left: 0;width: 100%;z-index: 999999;height: 10px;}
+.slider_area .bx-pager{position: absolute;bottom: 40px;left: 0;width: 100%;z-index: 999999;height: 10px;}
+.slider_area .bx-wrapper .bx-pager.bx-default-pager a {border: 5px solid #6a3144;width: 30px;height: 30px;border-radius: 50%;background: none;display: block;margin: 0 10px;}
+.slider_area .bx-wrapper .bx-pager.bx-default-pager a.active{background: #6a3144}
+.slider_area .slider_images{}
+.slider_area .slider_images img{display: block; margin: 0; width: 100%; height: auto}
+
+
+/*
+    Welcome Area
+*/
+.welcome_area{background: #fff; width: 100%;overflow: hidden;padding: 50px 0 }
+.welcome_area .inner_welcome{overflow: hidden;}
+.welcome_area .left_welcome{width: 46%; float: left; padding:0 2%}
+.welcome_area .left_welcome h3{font-weight: 400; font-size: 30px;text-transform: uppercase}
+.welcome_area .left_welcome p{font-size: 18px;}
+.welcome_area .left_welcome a{background: #6a3144; display: inline-block; color: #fff; padding: 10px 20px; text-transform: uppercase}
+.welcome_area .left_welcome a:hover{background: #97455f}
+.welcome_area .right_welcome{width: 50%; float: right}
+.welcome_area .right_welcome img{}
+
+
+/*
+    Service Area
+*/
+.service_area{background: #f5f5f5; padding: 50px 0; width: 100%; overflow: hidden}
+.service_area .inner_service{overflow: hidden;}
+.service_area .inner_service h2.title{text-align: center;color: #6a3144; font-size: 48px; font-weight: 600; margin-bottom: 0}
+.service_area .inner_service p.sub_title{text-align: center; font-size: 18px;}
+.service_area .main_service{width: 100%; overflow: hidden; margin-top: 20px;}
+.service_area .child_service {width: 225px;padding: 130px 60px 80px 105px;float: left;position: relative;transition: 0.5s; cursor: pointer;}
+.service_area .child_service:hover{background: #fff; box-shadow: 10px 10px 10px #ddd}
+.service_area .child_service h3{color: #523827; font-size: 100px; font-weight: 700; font-family: 'Oswald', sans-serif;opacity: 0.1; position: absolute; left: 60px; top: 60px}
+.service_area .child_service h4{font-size: 20px; font-weight: 700; text-transform: uppercase;margin-top: 28px; }
+.service_area .child_service h4 a{color: #523827}
+.service_area .child_service h4:hover a{}
+.service_area .child_service p{color: #000000; font-size: 14px; opacity: 0.5;}
+
+
+
+
+/*
+    Contact Area
+*/
+.contact_area{background: url(img/contact_image.jpg); background-size: cover; background-color: #101f38; padding: 50px 0; width: 100%; overflow: hidden;}
+.contact_area .inner_contact{width: 900px;max-width: 100%; overflow: hidden;margin: 0 auto}
+.contact_area .inner_contact h2.title{text-align: center;font-weight: 400; font-family: 'Oswald', sans-serif;color: #fff; font-size: 36px}
+.contact_area .main_contact_form{width: 100%; overflow: hidden; margin-top: 20px;text-align: center;}
+.contact_area .main_contact_form input {background: #fff;border: 0;width: 42%;padding: 15px 3%;float: left;margin: 0 1% 2%;border-radius: 5px;}
+.contact_area .main_contact_form textarea {background: #fff;border: 0;width: 92%;margin: 0 1% 2%;padding: 15px 3%;border-radius: 5px;min-height: 100px;}
+.contact_area .main_contact_form input[type="submit"] {background: #97455f;width: 250px;margin: 0 auto;float: none;color: #fff;font-size: 21px;font-weight: 600;text-transform: uppercase;border-radius: 25px;cursor: pointer;transition: 0.5s;}
+.contact_area .main_contact_form input[type="submit"]:hover {background: #6a3144;}
+
+
+
+
+/*
+    Footer Area
+*/
+.footer_area{background: #fff; padding: 30px 0; width: 100%; overflow: hidden;}
+.footer_area .inner_footer{overflow: hidden}
+.footer_area .footer_logo{width: 420px; max-width: 80%; margin: 0 auto 20px;text-align: center}
+.footer_area .copyright_area{width: 100%; overflow: hidden; text-align: center}
+.footer_area .copyright_area p{color: #6a3144; font-size: 14px; text-transform: uppercase; margin-bottom: 0}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
