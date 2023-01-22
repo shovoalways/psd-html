@@ -6,7 +6,7 @@ Learning PSD to HTML is a basic job if you want to become a web developer. To cr
 
 
 
-## 🥰 App screenshot
+## 🥰 PSD screenshot (PSD not Available, I am Sorry)
 ![Logo](https://github.com/shovoalways/psd-html/blob/main/HTML/img/WebSite.jpg?raw=true)
 
 
